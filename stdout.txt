@@ -1,0 +1,17 @@
+
+> contacts_app@0.1.0 submit C:\Users\Jairo\codenation\react-14
+> react-scripts test src/__tests__/submit.test.js --reporters=default --reporters=jest-junit "--watchAll=false"
+
+  console.error node_modules/react-dom/cjs/react-dom.development.js:88
+    Warning: Invalid DOM property `class`. Did you mean `className`?
+        in div (at App.jsx:79)
+        in App (at submit.test.js:25)
+
+  console.warn node_modules/react-dom/cjs/react-dom.development.js:88
+    Warning: componentWillMount has been renamed, and is not recommended for use. See https://fb.me/react-unsafe-component-lifecycles for details.
+    
+    * Move code with side effects to componentDidMount, and set initial state in the constructor.
+    * Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 17.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+    
+    Please update the following components: App
+
